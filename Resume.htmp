@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Resume</title>
+<style>
+body{
+margin:8px;
+padding15px;
+border:3px solid green;
+background-color:#f9f9f9;
+padding-top:10px;
+padding-right:10px;
+padding-bottom:10px;
+padding=left:25px;}
+</style>
+</head>
+
+<style>
+table,th,td{
+border:1px solid black;
+}
+  .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color:#333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+  
+</style>
+
+<body>
+<h1><u><center>RESUME</center></u></h1> 
+<br><b>&nbsp;VISHNU.D</b></br>
+<br><b>&nbsp;No.121,Mettu Street,kuttiyam,
+kalavai taluk,Ranipet-632506</b></br>
+<br><b>&nbsp;Email:123@gmail.com</b></br>
+<br><b>&nbsp;Contact Number:1231233222</b></br>
+<hr></hr>
+<h2><u>Educational Qualifications</u></h2>
+<table style="width:60%">
+<tr>
+<th>Name Of Institutions</th>
+<th>Course</th>
+<th>Years</th>
+<th>Percentage</th>
+</tr>
+<tr>
+<td>Nandhanam Arts College</td>
+<td>B.Sc-Computer Science</td>
+<td>2019-2022</th>
+<td>74%</td>
+</tr>
+<tr>
+<td>Chennai Corporation School West Mambalam</td>
+<td>HSC</td>
+<td>2018-2019</th>
+<td>72%</td>
+</tr>
+<tr>
+<td>Government School Mazhaiyur</td>
+<td>SSLC</td>
+<td>2015-2026</th>
+<td>84%</td>
+</tr>
+</table>
+<hr></hr>
+<h2><u>Career Objective</u></h2>
+ <p><b>&nbsp;To obtain a challenging job in the organization where i can utilize where i can utilize my technical 
+skills and conceptual knowledge to contribute to the growth of organization.</b></P>
+<hr></hr>
+<h2><u>Basic Knowledge About</u></h2>
+<p><b><h3>&nbsp;&bull; Computer Hardware</p>
+<p>&nbsp;&bull; Network</p>
+<p>&nbsp;&bull; Html</p>
+<p>&nbsp;&bull; Database</p>
+<p>&nbsp;&bull; Java</p>
+<p>&nbsp;&bull; Python</p>
+<p>&nbsp;&bull; C++</h3></b></p>
+<hr></hr>
+
+<h2><u>Personal Details</u></h2> 
+<p><h4><b>&nbsp;&nbsp;&bull; Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Vishnu.D</p>
+<p>&nbsp;&nbsp;&bull; Date Of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;12/06/2002</p>
+<p>&nbsp;&nbsp;&bull; Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Male</p>
+<p>&nbsp;&nbsp;&bull; Nationality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;Indian</p>
+<p>&nbsp;&nbsp;&bull; Knowledge Known&nbsp;&nbsp;:&nbsp;Tamil,English</p>
+<p>&nbsp;&nbsp;&bull; Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;No.121,Mettu street,kuttiyam,
+kalavai taluk,Ranipet-632506</p>
+<p>&nbsp;&nbsp;&bull; Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;123@gmail.com</p>
+<p>&nbsp;&nbsp;&bull; Phone Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;11223232323</h4></b></p>
+<HR></HR>
+<h2><u>Declaration</u></h2>
+<p><b>&nbsp;I here by declare that the above furnished details are true to the best of my knowledge and belief.
+</p>
+   <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            
+            <a href="./RK_bio.docx" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; VISHNU D </p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
